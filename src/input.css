@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+  @apply bg-black-default
+}
+
+
+.container{
+       max-width: 84%;
+       margin: auto;
+}
+
+@media (max-width: 1024px) { 
+  .container{
+     max-width: 92%;
+    }
+   
+  }
+
+@media (max-width: 400px) { 
+  .container{
+     max-width: 92%;
+    }
+   
+  }
+
